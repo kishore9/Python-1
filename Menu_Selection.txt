@@ -1,0 +1,16 @@
+"""
+1.Windows
+2.Linux
+3.Mac
+4.Exit
+"""
+print "1.Widows\n2.Linux\n3.Mac\n4.Exit"
+opt = raw_input("Enter an option:")
+if opt == '1':
+    print "windows selected"
+elif opt == "2":
+    print "Linux selected"
+elif opt == '3':
+    print "Mac selected"
+elif opt =='4':
+    exit()
